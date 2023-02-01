@@ -1,0 +1,46 @@
+{
+    "Cat":
+    {
+        "Filename": "Sprites/Cat",
+        "FrameCount": 8,
+        "FrameRate": 4,
+        "Origin": "Center",
+        "PlayType": "Loop"
+    },
+
+    "Crouch":
+    {
+        "Filename": "Sprites/Crouch",
+        "FrameCount":8,
+        "FrameRate":4,
+        "Origin": "Center",
+        "PlayType": "Loop"
+    },
+
+    "Fall":
+    {
+        "Filename": "Sprites/Fall",
+        "FrameCount": 3,
+        "FrameRate": 4,
+        "Origin":"Center",
+        "PlayType":"Loop"
+    },
+
+    "Jump":
+    {
+        "Filename": "Sprites/Jump",
+        "FrameCount": 4,
+        "FrameRate": 4,
+        "Origin":"Center",
+        "PlayType": "Loop"
+    },
+
+    "Land":
+    {
+        "Filename": "Sprites/Land",
+        "FrameCount": 2,
+        "FrameRate": 4,
+        "Origin":"Center",
+        "PlayType": "Loop"
+    }
+}

@@ -1,0 +1,28 @@
+﻿Build started 1/9/2023 11:03:38 AM.
+     1>Project "C:\My_Games\Snake\Sources\PC\Snake.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Rpg.vcxproj, SimpleMenusPCVS2013.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\ /IC:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc\PC /IC:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc /IC:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc\ZLib /IC:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc\TinyThread /IC:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc\GLEW\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Snake.cpp
+         Snake.cpp
+     1>c:\my_games\snake\sources\pc\snake.cpp(129): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\my_games\snake\sources\pc\snake.cpp(192): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\my_games\snake\sources\pc\snake.cpp(209): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\my_games\snake\sources\pc\snake.cpp(211): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\my_games\snake\sources\pc\snake.cpp(286): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\my_games\snake\sources\pc\snake.cpp(288): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\My_Games\Snake\Sources\PC\Debug\Snake.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Hw_Fall_22\Videogame_Programing\Libaries\FrogSrc/PC FrogPCVS2013D.lib OtherLibrariesPCVS2013D.lib Xinput.lib opengl32.lib openal32.lib winmm.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\My_Games\Snake\Sources\PC\Debug\Snake.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\My_Games\Snake\Sources\PC\Debug\Snake.lib" /MACHINE:X86 Debug\resource.res
+         Debug\MainGame.obj
+         Debug\MainMenu.obj
+         Debug\MainUpdate.obj
+         Debug\MenuState.obj
+         Debug\Food.obj
+         Debug\Snake.obj
+         Debug\MainPC.obj
+            Creating library C:\My_Games\Snake\Sources\PC\Debug\Snake.lib and object C:\My_Games\Snake\Sources\PC\Debug\Snake.exp
+         Snake.vcxproj -> C:\My_Games\Snake\Sources\PC\Debug\Snake.exe
+     1>Done Building Project "C:\My_Games\Snake\Sources\PC\Snake.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.01

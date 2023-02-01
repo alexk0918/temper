@@ -1,0 +1,20 @@
+﻿Build started 2/1/2023 12:58:14 AM.
+     1>Project "C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\CatJump.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\ /IC:\src\FrogSrc\PC /IC:\src\FrogSrc /IC:\src\FrogSrc\ZLib /IC:\src\FrogSrc\TinyThread /IC:\src\FrogSrc\GLEW\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\MainGame.cpp
+         MainGame.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\Debug\CatJump.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\src\FrogSrc/PC FrogPCVS2013D.lib OtherLibrariesPCVS2013D.lib Xinput.lib opengl32.lib openal32.lib winmm.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\Debug\CatJump.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\Debug\CatJump.lib" /MACHINE:X86 Debug\resource.res
+         Debug\MainGame.obj
+         Debug\MainMenu.obj
+         Debug\MainUpdate.obj
+         Debug\MenuState.obj
+         Debug\Cats.obj
+         Debug\MiddleGround.obj
+         Debug\MainPC.obj
+         CatJump.vcxproj -> C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\Debug\CatJump.exe
+     1>Done Building Project "C:\Users\alexk\OneDrive\Documents\Visual Studio 2013\Projects\Brians-prototype-main\Cat_Jump\Sources\PC\CatJump.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43
